@@ -1,0 +1,202 @@
+.choice {
+    margin: 5px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.choice:hover {
+    background-color: #ccc;
+}
+
+body,
+.color-preference select,
+.price-range select,
+h2,
+button.choice,
+#submit,
+.skin h2 {
+    font-family: 'Your Desired Font', sans-serif; /* Replace 'Your Desired Font' with the actual font you want to use */
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('phonto.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #1a1a1a;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 0.8s;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    background-image: url('phontoo.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.gif-container {
+    text-align: center;
+    margin-bottom: 20px;
+    flex: 1 1 100%;
+    width: 100%;
+}
+
+.gif-container img {
+    max-width: 100%;
+}
+
+.floating-island {
+    flex: 1 1 100%;
+    position: relative;
+    width: 100%;
+}
+
+.color-preference, .price-range {
+    background-color: #6a5acd; /* Dark blue-purpleish color */
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.color-preference label, .price-range label {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.color-preference select, .price-range select {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #000;
+    border-radius: 4px;
+    background-color: #333;
+    transition: background-color 0.3s;
+    font-family: 'Your Desired Font', sans-serif;
+    color: #fff;
+}
+
+.color-preference select:hover, .price-range select:hover {
+    background-color: #555;
+}
+
+.color-preference select:focus, .price-range select:focus {
+    outline: none;
+    background-color: #555;
+}
+
+.section {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+button.choice {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s;
+}
+
+button.choice:hover {
+    background-color: #d32f2f;
+    color: #fff;
+}
+
+#submit {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #2196f3;
+    color: #fff;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+#submit:hover {
+    background-color: #1e87db;
+}
+
+.suggested-skins {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skin {
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.skin:hover {
+    transform: scale(1.05);
+}
+
+.skin h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.skin img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skin img {
+    display: none;
+}
